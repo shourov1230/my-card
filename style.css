@@ -1,5 +1,6 @@
 body {
     max-width: 1170px;
+    
     margin: 0 auto;
 }
 .card-container {
@@ -40,4 +41,20 @@ body {
 h2 {
     text-align: center;
     font-size: 50px;
+}
+nav li a {
+    text-decoration:none ;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+    
+}
+nav li:hover {
+    background-color: aqua;
+}
+nav {
+    text-align: right;
 }
